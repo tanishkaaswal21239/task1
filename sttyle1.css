@@ -1,0 +1,80 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: large;
+}
+
+header {
+	background-image: url("web.jpg");
+    background-size:cover;
+	color: #fff;
+	display: flex;
+	justify-content:space-between;
+	align-items:end;
+	padding: 20px;
+    height: 500px;
+}
+
+.about p{
+    text-size-adjust: 250px;
+}
+ nav ul {
+	list-style: none;
+	display: flex;
+	align-items:baseline;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* nav li ul a{
+	float:left; 
+} */
+
+section {
+	padding: 50px;
+    background-color:beige;
+    
+}
+
+h2 {
+	font-size: 2em;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+h3 {
+	font-size: 1.5em;
+	margin-bottom: 20px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+form label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+#SKILLS div{
+	display:inline-table;
+	margin-inline-start: 300px;
+}
